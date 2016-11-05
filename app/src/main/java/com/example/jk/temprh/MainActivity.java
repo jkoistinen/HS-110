@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
                     String total = responsejson.getString("total");
                     String error_code = responsejson.getString("err_code");
 
-                    textViewCurrent = (TextView) findViewById(R.id.current);
-                    textViewCurrent.setText("Current:"+current);
+//                    textViewCurrent = (TextView) findViewById(R.id.current);
+//                    textViewCurrent.setText("Current:"+current);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
